@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio profesional de Javier — Datos, Business Intelligence y Desarrollo de Soluciones.">
-  <meta name="author" content="Javier">
-  <title>Javier | Data & Business Intelligence</title>
+  <meta name="description"
+    content="Portafolio profesional de Javier — Datos, Business Intelligence y Desarrollo de Soluciones.">
+  <meta name="author" content="Portafolio">
+  <title>Audino M. | Data & Business Intelligence</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
   <header class="header" id="inicio">
     <nav class="nav container">
-      <a class="brand" href="#inicio"><span>J</span> Javier</a>
+      <a class="brand" href="#inicio"><span>J</span> Audino M.</a>
       <button class="menu-toggle" aria-label="Abrir menú">☰</button>
       <div class="nav-links">
-        <a href="#sobre-mi">Sobre mí</a>
         <a href="#habilidades">Habilidades</a>
-        <a href="#proyectos">Proyectos</a>
         <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
         <a href="#contacto">Contacto</a>
       </div>
       <button class="theme-toggle" aria-label="Cambiar tema">☼</button>
@@ -31,82 +36,116 @@
     <section class="hero container">
       <div class="hero-copy">
         <p class="eyebrow">DATA · BI · DEVELOPMENT</p>
-        <h1>Convierto datos en <span>información útil.</span></h1>
-        <p class="hero-text">
-          Analista de datos y desarrollador de soluciones orientadas a
-          Business Intelligence, automatización, visualización y procesamiento de información.
-        </p>
+        <h2>Convierto datos en <span>información útil.</span></h2>
+
+        <div class="about-text">
+            <p class="hero-text">Soy un profesional panameño con 8 años de experiencia en el sector tecnológico, aplicando conocimientos
+            en análisis de datos y desarrollo de soluciones de software.</p>
+          <p class="hero-text">
+            Me emociona transformar datos complejos en información clara y útil para la toma de decisiones.
+            Trabajo desde la extracción de los datos, su transformación y limpieza, identificación de indicadores,
+            visualización y automatización para mantenerlos actualizados.
+          </p>
+
+          <!-- <div class="stats">
+            <div><strong>BI</strong><span>Dashboards & KPIs</span></div>
+            <div><strong>DATA</strong><span>Análisis & procesamiento</span></div>
+          </div> -->
+        </div>
         <div class="hero-actions">
           <a class="btn primary" href="#proyectos">Ver proyectos <span>↗</span></a>
-          <a class="btn secondary" href="cv/CV.pdf" target="_blank" rel="noopener">Ver CV</a>
+          <a class="btn secondary" href="cv/CV_MontenegroAudino_LI.pdf" target="_blank" rel="noopener">Ver CV</a>
         </div>
         <div class="quick-tech">
-          <span>Python</span><span>Power BI</span><span>SQL</span><span>R</span><span>React</span>
+          <span>Python <i class="devicon-python-plain"></i> </span>
+          <span>Power BI <i class="devicon-powerbi-plain"></i></span>
+          <span>SQL <i class="devicon-microsoftsqlserver-plain"></i></span>
+          <span>R <i class="devicon-r-plain"></i></span>
         </div>
       </div>
       <div class="hero-card">
         <div class="profile-placeholder">
-          <div class="initial">J</div>
+          <div class="initial">
+            <img src="./assets/img/ajm.jpg" alt="Audino M.">
+          </div>
           <p>DATA & BI</p>
         </div>
         <div class="status"><i></i> Disponible para proyectos</div>
       </div>
     </section>
-
-    <section class="section" id="sobre-mi">
-      <div class="container two-col">
-        <div>
-          <p class="eyebrow">01 — SOBRE MÍ</p>
-          <h2>Datos, análisis y tecnología para resolver problemas reales.</h2>
-        </div>
-        <div class="about-text">
-          <p>
-            Mi enfoque combina análisis de datos, inteligencia de negocios y desarrollo
-            de soluciones. Me interesa transformar información compleja en herramientas
-            claras para el análisis y la toma de decisiones.
-          </p>
-          <p>
-            Trabajo con datos desde su procesamiento y transformación hasta su
-            visualización, automatización y publicación de soluciones.
-          </p>
-          <div class="stats">
-            <div><strong>BI</strong><span>Dashboards & KPIs</span></div>
-            <div><strong>DATA</strong><span>Análisis & procesamiento</span></div>
-            <div><strong>DEV</strong><span>APIs & aplicaciones</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="section alt" id="habilidades">
       <div class="container">
-        <p class="eyebrow">02 — HABILIDADES</p>
+        <p class="eyebrow">HABILIDADES</p>
         <h2>Herramientas que utilizo</h2>
         <div class="skills-grid">
           <article class="skill-card">
             <div class="skill-icon">BI</div>
             <h3>Business Intelligence</h3>
-            <p>Modelado, indicadores, dashboards y análisis ejecutivo.</p>
+            <p>ETL, modelado, identificación de indicadores, diseño y construcción de dashboards y reportería ejecutiva.</p>
             <div class="tags"><span>Power BI</span><span>Superset</span><span>Looker Studio</span></div>
           </article>
           <article class="skill-card">
             <div class="skill-icon">&lt;/&gt;</div>
-            <h3>Programación</h3>
+            <h3>Transformación de datos</h3>
             <p>Automatización y desarrollo de soluciones para procesamiento de datos.</p>
-            <div class="tags"><span>Python</span><span>R</span><span>JavaScript</span></div>
+            <div class="tags"><span>Python</span><span>R</span></div>
           </article>
           <article class="skill-card">
             <div class="skill-icon">SQL</div>
             <h3>Bases de datos</h3>
-            <p>Consulta, transformación y manejo de información estructurada.</p>
+            <p>Consulta, transformación y manejo de información estructurada. Consultas SQL, procedimientos almacenados, funciones.</p>
             <div class="tags"><span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span></div>
           </article>
           <article class="skill-card">
             <div class="skill-icon">API</div>
-            <h3>Desarrollo</h3>
+            <h3>Desarrollo de software</h3>
             <p>Aplicaciones web, APIs, almacenamiento de archivos y herramientas internas.</p>
             <div class="tags"><span>Flask</span><span>React</span><span>Git</span><span>S3</span></div>
           </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section alt" id="experiencia">
+      <div class="container">
+        <p class="eyebrow">FORMACIÓN ACADÉMICA</p>
+        <div class="timeline">
+           <!-- <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-label">Actualidad - Big School</p>
+              <h3>Máster en Desarrollo con Inteligencia Artificial</h3>
+            </div>
+          </div> -->
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-label">2026 - European Open Business School (Diploma en trámite)</p>
+              <h3>Título Experto en Business Intelligence y Fundamentos de Big Data</h3>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-label">2025 - Universidad Tecnológica de Panamá</p>
+              <h3>Maestría en Ingeniería de Software</h3>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-label">2025 - Universidad Tecnológica de Panamá</p>
+              <h3>Posgrado de especialización en Ingeniería de Software</h3>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div>
+              <p class="timeline-label">2017 - Universidad Tecnológica de Panamá</p>
+              <h3>Licenciatura en Ingeniería de Sistemas y Computación</h3>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -115,7 +154,7 @@
       <div class="container">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">03 — PROYECTOS</p>
+            <p class="eyebrow">PROYECTOS</p>
             <h2>Proyectos destacados</h2>
           </div>
           <a class="text-link" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
@@ -181,30 +220,6 @@
       </div>
     </section>
 
-    <section class="section alt" id="experiencia">
-      <div class="container">
-        <p class="eyebrow">04 — EXPERIENCIA</p>
-        <h2>Mi forma de trabajar</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <span class="timeline-dot"></span>
-            <div><p class="timeline-label">01 · EXPLORAR</p><h3>Entender el problema</h3><p>Identificar objetivos, fuentes, variables y necesidades del usuario.</p></div>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-dot"></span>
-            <div><p class="timeline-label">02 · TRANSFORMAR</p><h3>Preparar los datos</h3><p>Limpiar, integrar, transformar y estructurar la información.</p></div>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-dot"></span>
-            <div><p class="timeline-label">03 · ANALIZAR</p><h3>Encontrar información</h3><p>Construir indicadores, métricas y análisis que respondan preguntas reales.</p></div>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-dot"></span>
-            <div><p class="timeline-label">04 · VISUALIZAR</p><h3>Comunicar resultados</h3><p>Convertir resultados en dashboards y soluciones fáciles de interpretar.</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="contact section" id="contacto">
       <div class="container contact-box">
@@ -214,9 +229,9 @@
           <p>Estoy interesado en proyectos relacionados con datos, BI, automatización y desarrollo de soluciones.</p>
         </div>
         <div class="contact-actions">
-          <a class="btn primary" href="mailto:tu-correo@ejemplo.com">Escríbeme ↗</a>
-          <a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
-          <a class="btn secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn primary" href="mailto:audinojavier@gmail.com">Escríbeme ↗</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/audino-montenegro" target="_blank"
+            rel="noopener">LinkedIn ↗</a>
         </div>
       </div>
     </section>
@@ -231,4 +246,5 @@
 
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
