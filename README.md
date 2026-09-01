@@ -1,4 +1,4 @@
-# Portafolio profesional — Javier
+# Portafolio profesional
 
 Portafolio web estático preparado para publicar con **GitHub Pages**.
 
