@@ -113,12 +113,12 @@ h3 { font-size:1.35rem; }
 .section-heading { display:flex; justify-content:space-between; align-items:end; }
 .text-link,.project-link { color:var(--accent); font-weight:700; font-size:.85rem; }
 .projects-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:45px; }
-.project { min-height:360px; display:flex; flex-direction:column; position:relative; overflow:hidden; }
+.project { display:flex; flex-direction:column; align-self:start; position:relative; overflow:hidden; }
 .project:hover { border-color:rgba(66,211,178,.45); }
 .project-number { color:var(--muted); font-family:"Space Grotesk"; font-size:.8rem; }
 .project-body { margin-top:0; }
 .project-type,.timeline-label { color:var(--accent)!important; font-size:.68rem!important; letter-spacing:.15em; font-weight:800; }
-.project-link { display:inline-block; margin-top:24px; }
+.project-link { display:inline-block; margin:24px 0 16px; }
 .featured { background:linear-gradient(135deg,var(--surface-2),var(--bg)); }
 .timeline { max-width:850px; margin:45px auto 0; border-left:1px solid var(--line); padding-left:40px; }
 .timeline-item { position:relative; padding-bottom:44px; }
