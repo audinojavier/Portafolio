@@ -116,7 +116,7 @@ h3 { font-size:1.35rem; }
 .project { min-height:360px; display:flex; flex-direction:column; position:relative; overflow:hidden; }
 .project:hover { border-color:rgba(66,211,178,.45); }
 .project-number { color:var(--muted); font-family:"Space Grotesk"; font-size:.8rem; }
-.project-body { margin-top:auto; }
+.project-body { margin-top:0; }
 .project-type,.timeline-label { color:var(--accent)!important; font-size:.68rem!important; letter-spacing:.15em; font-weight:800; }
 .project-link { display:inline-block; margin-top:24px; }
 .featured { background:linear-gradient(135deg,var(--surface-2),var(--bg)); }
